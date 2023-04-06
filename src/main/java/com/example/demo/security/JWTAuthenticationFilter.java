@@ -30,7 +30,6 @@ public class JWTAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 
     private Logger log = LoggerFactory.getLogger(JWTAuthenticationFilter.class);
 
-
     private AuthenticationManager authenticationManager;
 
     public JWTAuthenticationFilter(AuthenticationManager authenticationManager) {
