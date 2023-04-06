@@ -77,6 +77,15 @@
 			<version>4.13</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.organicdesign.testUtils</groupId>
+			<artifactId>TestUtils</artifactId>
+			<version>0.0.16</version>
+		</dependency>
 
 	</dependencies>
 

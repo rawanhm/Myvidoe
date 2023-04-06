@@ -55,7 +55,7 @@ public class UserController {
 				!createUserRequest.getPassword().equals(createUserRequest.getConfirmPassword())) {
 			return ResponseEntity.badRequest().build();
 		}
-		user.setPassword(createUserRequest.getPassword());
+		user.setPassword(bCryptPasswordEncoder.encode(createUserRequest.getPassword()));
 		userRepository.save(user);
 
 		logger.info("Created user with username, {}.", user.getUsername());
