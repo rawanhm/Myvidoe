@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controllers;
 
 import com.example.demo.controllers.OrderController;
 import com.example.demo.model.persistence.*;

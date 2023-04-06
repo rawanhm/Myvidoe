@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.controllers;
 
 
 import com.example.demo.controllers.UserController;
@@ -11,7 +11,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 import java.lang.reflect.Field;
-import java.util.Objects;
 import java.util.Optional;
 
 import static org.junit.Assert.assertEquals;
